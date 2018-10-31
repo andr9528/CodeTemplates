@@ -1,0 +1,1 @@
+﻿This Project should contain all the Concrete classes matching the Interfaces in Domain.Core
