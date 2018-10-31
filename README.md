@@ -9,5 +9,5 @@ Currently holds
 - A project for all the implementation needed to make Entity Framework function --> Repository.EntityFramework
 
 Each project also includes a readme, that details some of the files and requirements the project has.
-The project taken from here does not have any real code in them, insted it has examples of how somthing should look like, 
+The project taken from here does not have any real code in them, insted it has examples of how something should look like, 
   with comments to describe what is needed where
