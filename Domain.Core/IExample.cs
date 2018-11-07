@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Domain.Core
 {
     /*
-    interface IExample : IEntity
+    public interface IExample : IEntity
     {
         int PropertyA { get; set; }
         string PropertyB { get; set; }
