@@ -104,9 +104,9 @@ namespace Repository.EntityFramework
 
         // Example:
         /*
-        private ICollection<Subscription> FindMultipleSubscriptions(ISubscription s)
+        private ICollection<YourDomainClass> FindMultipleSubscriptions(IYourDomainClass y)
         {
-            var query = repo.YourDomainClassAsPlural.AsQueryable();
+            var query = repo.YourDomainClassInPlural.AsQueryable();
             query = BuildFindYourDomainClassQuery(y, query);
 
             return FindMultipleResults(query);
