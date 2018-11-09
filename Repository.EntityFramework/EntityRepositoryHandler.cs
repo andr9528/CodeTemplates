@@ -80,10 +80,10 @@ namespace Repository.EntityFramework
             if (y.PropertyA != default(PropertyAType))
                 query = query.Where(x => x.PropertyA == y.PropertyA);
 
-            // If it is a string then use the method 'IsNullOrEmpty'
+            // If it is a string then use the method 'IsNullOrEmpty' and the method 'Contains'
 
-            if (y.PropertyB.IsNullOrEmpty)
-                query = query.Where(x => x.PropertyB == y.PropertyB);
+            if (!y.PropertyB.IsNullOrEmpty())
+                query = query.Where(x => x.PropertyB.Contains(y.PropertyB));
             return query;
         }
         */
